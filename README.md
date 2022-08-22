@@ -36,18 +36,16 @@ Users should be able to:
 
 ## Solution
 
-- Solution Github URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution Github URL: [Add solution URL here](https://github.com/qiafengchen/credit-card/tree/master)
+- Live Site URL: [Add live site URL here](https://master.d27c2d8823qrf6.amplifyapp.com/)
 
 ## Built with
 
 List below any frameworks / libraries you have used for this assignment
 
-- React JS
 - TypeScript
+- React JS
 - CSS
-
-## Useful resources (If any)
 
 ## Submisison
 

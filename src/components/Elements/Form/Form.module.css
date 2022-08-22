@@ -6,11 +6,11 @@
 
 .label {
   font-size: 1rem;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
 }
 
 .title {
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-weight: 700;
   font-size: xxx-large;
 }
@@ -31,13 +31,14 @@ input {
   height: 28px;
   border: 1px solid#a9a9a9;
   border-radius: 5px;
+  padding: 0.5em;
 }
 
 .submitButton,
 .submitButton:active {
   color: white;
   background: #283243;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
   border-radius: 10px;

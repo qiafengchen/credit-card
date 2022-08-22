@@ -1,6 +1,6 @@
 .card {
   width: 40rem;
-  height: 25rem;
+  height: 28rem;
   background: #283243;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 10px;
@@ -8,7 +8,7 @@
 .bank {
   letter-spacing: 5px;
   color: #ffffff;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   margin: 1rem;
   text-align: left;
   font-size: 50px;
@@ -29,7 +29,7 @@
 .cardNumber,
 .dates,
 .cardHolder {
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   color: #a5a7ab;
   font-size: 3rem;
   letter-spacing: 5px;
