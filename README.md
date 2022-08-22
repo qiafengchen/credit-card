@@ -36,8 +36,8 @@ Users should be able to:
 
 ## Solution
 
-- Solution Github URL: [Add solution URL here](https://github.com/qiafengchen/credit-card/tree/master)
-- Live Site URL: [Add live site URL here](https://master.d27c2d8823qrf6.amplifyapp.com/)
+- Solution Github URL: [solution URL](https://github.com/qiafengchen/credit-card/tree/master)
+- Live Site URL: [live site URL](https://master.d27c2d8823qrf6.amplifyapp.com/)
 
 ## Built with
 
