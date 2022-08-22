@@ -2,7 +2,7 @@ import React from 'react';
 import { Expiry } from '../../../utils';
 // @ts-ignore
 import Card from '../Card/Card.tsx';
-import classes from './Form.module.css';
+import classes from './Form.module.scss';
 // @ts-ignore
 import { numericRegex } from '../../../utils/index.ts';
 
@@ -52,9 +52,7 @@ const CreditCardForm = (): JSX.Element => {
   };
 
   return (
-    <div
-      className={classes.layout}
-    >
+    <div className={classes.layout}>
       <Card cardNumber={cardNumber} name={name} expiry={expiry} />
       <div
         style={{
@@ -66,7 +64,7 @@ const CreditCardForm = (): JSX.Element => {
         {success && !error ? (
           <div className={classes.success}>Your card has been confirmed!</div>
         ) : null}
-        <form onSubmit={submitHandler}>
+        <form onSubmit={submitHandler} style={{ padding: '0 1rem' }}>
           <label htmlFor="cardHolderName" className={classes.label}>
             CARDHOLDER NAME
             <div>
@@ -89,7 +87,7 @@ const CreditCardForm = (): JSX.Element => {
                 maxLength={16}
                 id="cardNumber"
                 type="text"
-                placeholder="cardNumber"
+                placeholder="Card Number"
                 required
                 value={cardNumber}
                 onChange={(e) => {
@@ -98,15 +96,15 @@ const CreditCardForm = (): JSX.Element => {
               />
             </div>
           </label>
-          <div>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <label htmlFor="expiry" className={classes.label}>
               EXP.Date(MM/YYYY)
-              <div>
+              <div className={classes.expiryInputContainer}>
                 <input
                   maxLength={2}
                   id="expiry"
                   type="text"
-                  placeholder="MM"
+                  placeholder="03"
                   required
                   onChange={(e) => {
                     setExpiry({
@@ -119,7 +117,7 @@ const CreditCardForm = (): JSX.Element => {
                   maxLength={4}
                   id="expiry"
                   type="text"
-                  placeholder="YYYY"
+                  placeholder="2022"
                   required
                   onChange={(e) => {
                     setExpiry({

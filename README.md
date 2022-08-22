@@ -45,7 +45,7 @@ List below any frameworks / libraries you have used for this assignment
 
 - TypeScript
 - React JS
-- CSS
+- SASS
 
 ## Submisison
 

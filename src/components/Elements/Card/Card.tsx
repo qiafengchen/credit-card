@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Card.module.css';
+import classes from './Card.module.scss';
 import Chip from '../../../assets/Chip.png';
 import PayPass from '../../../assets/PayPass.png';
 // @ts-ignore
