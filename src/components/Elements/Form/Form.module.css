@@ -1,0 +1,58 @@
+.label {
+  font-size: 1rem;
+  font-family: 'IBM Plex Sans';
+}
+
+.title {
+  font-family: 'IBM Plex Sans';
+  font-weight: 700;
+  font-size: xxx-large;
+}
+
+.error,
+.success {
+  background-color: #fdeded;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  color: #723a39;
+  font-size: large;
+  text-align: left;
+  font-weight: 600;
+}
+
+input {
+  width: 250px;
+  height: 28px;
+  border: 1px solid#a9a9a9;
+  border-radius: 5px;
+}
+
+.submitButton,
+.submitButton:active {
+  color: white;
+  background: #283243;
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0 1rem 14rem;
+  border: 2px solid #283243;
+}
+
+.submitButton:hover {
+  background: white;
+  color: #283243;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.submitButton:active {
+  color: white;
+  background: #283243;
+  box-shadow: none;
+}
+
+.success {
+  color: chartreuse;
+  background-color: #87ceeb;
+}

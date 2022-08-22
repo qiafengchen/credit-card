@@ -1,0 +1,65 @@
+.card {
+  width: 40rem;
+  height: 25rem;
+  background: #283243;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+}
+.bank {
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans';
+  margin: 1rem;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 500;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.images img:first-child {
+  margin-left: 3rem;
+}
+.images img:nth-child(2) {
+  margin-right: 2rem;
+  width: 60px;
+}
+.cardNumber,
+.dates,
+.cardHolder {
+  font-family: 'IBM Plex Sans';
+  color: #a5a7ab;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  text-shadow: -1px 1px black;
+}
+
+.datesContainer {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.datesTitle {
+  margin-left: 1rem;
+  color: #a9a9a9;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.dates {
+  margin-left: 1rem;
+  font-size: 1.95rem;
+}
+
+.cardHolder {
+  text-align: left;
+  margin: 1rem;
+  font-size: 1.75rem;
+}
+
+form {
+  text-align: left !important;
+}

@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Credit Card submit form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+- [The assignment](#the-assignment)
+- [Solution](#solution)
+- [Built with](#built-with)
+- [Useful resources](#useful-resources)
+- [Submission](#submission)
+- [Question](#question)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### You will be given a week (7 days) to complete this assignment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this assignment, you will be creating a credit card submit form and a credit card template.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- TypeScript and React Js are highly recommended for completing this assignment
 
-### `npm test`
+## The assignment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users should be able to:
 
-### `npm run build`
+- Fill in the form and see the card details update in real-time
+  - "Cardmember since" value will be "Card Expiry Year" minus 5
+- Placeholder value for "Credit Card on the left":
+  - Card number : 1234 5678 9123 4567
+  - Card holder name: F. Last
+  - Member Since 2022
+  - Expiry date: 08/25
+- Receive error messages when the form is submitted if:
+  - Any input field is empty
+  - The card number, and CVV fields are in the wrong format
+  - Expiry date is in the wrong format or smaller than today's day
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Solution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution Github URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built with
 
-### `npm run eject`
+List below any frameworks / libraries you have used for this assignment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React JS
+- TypeScript
+- CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Useful resources (If any)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Submisison
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Upon completing this assignment, please edit this README file and send it to careers@usage.ai.
+For subject line please include
 
-## Learn More
+- For example: [Your full name] FE (Code assignment)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Question
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions during this assignment you can email those questions to careers@usage.ai
 
-### Code Splitting
+In the subject line please include
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- For example: [Your full name] [Position you are applying for] question
