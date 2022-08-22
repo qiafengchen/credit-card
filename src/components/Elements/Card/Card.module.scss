@@ -64,3 +64,9 @@
 form {
   text-align: left !important;
 }
+
+@media (max-width: 1300px) {
+  .card {
+    width: 45rem;
+  }
+}

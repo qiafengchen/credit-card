@@ -57,6 +57,7 @@ const CreditCardForm = (): JSX.Element => {
       <div
         style={{
           marginLeft: '1rem',
+          width: '40rem',
         }}
       >
         <h1 className={classes.title}>Enter Card Detail</h1>
