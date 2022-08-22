@@ -53,11 +53,7 @@ const CreditCardForm = (): JSX.Element => {
 
   return (
     <div
-      style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        margin: '5rem 8rem',
-      }}
+      className={classes.layout}
     >
       <Card cardNumber={cardNumber} name={name} expiry={expiry} />
       <div
