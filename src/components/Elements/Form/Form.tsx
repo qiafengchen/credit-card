@@ -60,7 +60,12 @@ const CreditCardForm = (): JSX.Element => {
           width: '40rem',
         }}
       >
-        <h1 className={classes.title} style={{ fontFamily: 'ibm-plex-sans,sans-serif' }}>Enter Card Detail</h1>
+        <h1
+          className={classes.title}
+          style={{ fontFamily: 'ibm-plex-sans,sans-serif' }}
+        >
+          Enter Card Detail
+        </h1>
         {error ? <div className={classes.error}>{error}</div> : null}
         {success && !error ? (
           <div className={classes.success}>Your card has been confirmed!</div>
